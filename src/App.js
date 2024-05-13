@@ -32,11 +32,11 @@ function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-light' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
-              <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/courses' className='text-uppercase'>Our courses</Nav.Link>
-              <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
-              <Nav.Link href='/blog' className='text-uppercase'>Blog</Nav.Link>
-              <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
+              <Link to='/' className='nav-link text-uppercase'>Home</Link>
+              <Link to='/courses' className='nav-link text-uppercase'>Our courses</Link>
+              <Link to='/about' className='nav-link text-uppercase'>About us</Link>
+              <Link to='/blog' className='nav-link text-uppercase'>Blog</Link>
+              <Link to='/contact' className='nav-link text-uppercase'>Get in touch</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
