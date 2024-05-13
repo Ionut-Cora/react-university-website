@@ -1,3 +1,18 @@
+# React JS University Website - Bootstrap 5 Design
+
+## View live website: https://ionut-cora.github.io/react-university-website/
+
+<img src="reactjs university website template.jpg" alt="reactjs university website template - bootstrap 5 design" />
+
+## For this website I used:
+- [React JS](https://react.dev/) - JavaScript library
+- [React Bootstrap](https://react-bootstrap.netlify.app/) - Front-End Framework for React
+- [Unsplash](https://unsplash.com/) - Free images
+- [Google Fonts](https://fonts.google.com/) - Montserrat Family Font
+
+## This university template website is a multi page custom demo website created with [React JS](https://react.dev/) and designed with [React Bootstrap](https://react-bootstrap.netlify.app/).
+The website contain 5 pages: Home, About, Courses, Blog and Contact. Also contains few components like accordion component for example.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
