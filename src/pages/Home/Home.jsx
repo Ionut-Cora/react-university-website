@@ -57,8 +57,8 @@ function Home() {
             <div className="container">
                 <div className='row d-flex align-items-center justify-content-around'>
                     <div className='col-lg-5'>
-                        <h2 className='text-capitalize'>2024 start courses</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat.</p>
+                        <h2 className='text-capitalize'>2025 start courses</h2>
+                        <p>At the University of London, the courses for 2025 start in May for the longer courses, respectively in September for the shorter courses!</p>
                         <Link to="/courses">
                             <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Learn More</button>
                         </Link>
