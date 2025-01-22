@@ -35,10 +35,10 @@ function Home() {
     <div className='home-page'>
         <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
             <div className='container d-flex flex-column align-items-center'>
-                <h2>Welcome To</h2>
-                <h1 className='text-center fw-semibold'>React University London</h1>
-                <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.</p>
-                <div className='d-flex flex-column flex-sm-row align-items-center'>
+                <h2>Welcome to</h2>
+                <h1 className='text-center fw-semibold'>University of London</h1>
+                <p className='text-center'>Apply with our University of London for courses in Computer Science, Art, Business Administration & Business Management, Education, Healthcare, Law, Music or Sport!</p>
+                <div className='d-flex flex-column flex-sm-row align-items-center mt-md-3'>
                     <Link to="/courses">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Courses</button>
                     </Link>

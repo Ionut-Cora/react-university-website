@@ -2,6 +2,10 @@
     background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/home-page-header.jpg);
 }
 
+.home-page header p {
+    width: 75%;
+}
+
 header {
     background-size: cover;
     background-position: center;
@@ -11,4 +15,10 @@ header {
     background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/blog-section-img.jpg);
     background-size: cover;
     background-position: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page header p {
+        width: 100%;
+    }
 }
