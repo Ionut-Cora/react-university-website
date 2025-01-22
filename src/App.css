@@ -39,11 +39,12 @@ nav .navbar-toggler:focus {
   height: 75vh;
 }
 
-.footer-social-icons li:hover svg {
-  fill: #212529;
+.footer-social-icons svg {
+  font-size: 2.5rem;
+  color: #dc3545;
 }
 
-.footer-navigation li:hover {
+.footer-social-icons svg:hover {
   color: #212529;
 }
 
