@@ -101,23 +101,23 @@ function App() {
             </div>
 
             <div className='col-md-4'>
-                  <ul className='list-unstyled mb-0'>
-                    <li>
-                      <p>Main Address - 47 Street Name, London UK</p>
-                    </li>
-                    <li>
-                      <p>Phone Number - 0900800700</p>
-                    </li>
-                    <li>
-                      <p>Email - react@university.co.uk</p>
-                    </li>
-                  </ul>
+              <ul className='list-unstyled mb-0'>
+                <li>
+                  <p>Main Address: 47 High Street, London, UK</p>
+                </li>
+                <li>
+                  <p>Phone Number: <a href="tel:0900800700" className='text-dark'>0900800700</a></p>
+                </li>
+                <li>
+                  <p>Email: <a href="mailto:london@university.com" className='text-dark'>london@university.com</a></p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
         <div className='bg-body-tertiary'>
           <div className='container'>
-            <p className='p-3 m-0 text-center'>copyright @ made by Ionut Cora</p>
+            <p className='p-3 m-0 text-center'>copyright @ made by <Link to='https://www.ionutcora.com/' style={{textDecoration: 'none', color: '#000000'}} target="_blank">Ionut Cora</Link></p>
           </div>
         </div>
       </footer>
