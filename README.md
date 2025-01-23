@@ -1,15 +1,21 @@
-# React JS University Website - Bootstrap 5 Design
+# React JS University of London Website - Bootstrap 5 Design
 
 ## View live website: https://ionut-cora.github.io/react-university-website/
 
 <img src="university_website.jpg" alt="React JS University of London website" />
 
-## For this website I used:
+## Dependencies
 - [React JS](https://react.dev/) - JavaScript library
 - [React Bootstrap](https://react-bootstrap.netlify.app/) - Front-End Framework for React
 - [Font Awesome](https://fontawesome.com/) - Icon library
 - [Unsplash](https://unsplash.com/) - Free images
 - [Google Fonts](https://fonts.google.com/) - Montserrat Family Font
+
+## Installation
+- git clone repo
+- npm install
+- npm start
+- [http://localhost:3000](http://localhost:3000) - open in your browser to see the project
 
 ## The University of London template website is a multi page custom demo website created with [React JS](https://react.dev/) and designed with [React Bootstrap](https://react-bootstrap.netlify.app/).
 The website contain 5 pages: Home, About, Courses, Blog and Contact. Also contains few components like accordion component for example.
