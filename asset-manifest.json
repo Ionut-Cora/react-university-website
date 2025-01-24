@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-university-website/static/css/main.4e0675d8.css",
-    "main.js": "/react-university-website/static/js/main.c72ac069.js",
+    "main.js": "/react-university-website/static/js/main.bbb406fb.js",
     "static/js/787.f9a68459.chunk.js": "/react-university-website/static/js/787.f9a68459.chunk.js",
     "static/media/blog9-img.jpg": "/react-university-website/static/media/blog9-img.35be964cf0ea82188ef2.jpg",
     "static/media/art-course.jpg": "/react-university-website/static/media/art-course.d167903288709e7b706a.jpg",
@@ -42,11 +42,11 @@
     "static/media/person6.jpg": "/react-university-website/static/media/person6.a4669241d790d3eba4e7.jpg",
     "index.html": "/react-university-website/index.html",
     "main.4e0675d8.css.map": "/react-university-website/static/css/main.4e0675d8.css.map",
-    "main.c72ac069.js.map": "/react-university-website/static/js/main.c72ac069.js.map",
+    "main.bbb406fb.js.map": "/react-university-website/static/js/main.bbb406fb.js.map",
     "787.f9a68459.chunk.js.map": "/react-university-website/static/js/787.f9a68459.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e0675d8.css",
-    "static/js/main.c72ac069.js"
+    "static/js/main.bbb406fb.js"
   ]
 }
