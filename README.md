@@ -1,4 +1,4 @@
-# React JS University of London Website - Bootstrap 5 Design
+# React JS University of Arts & Technology - Bootstrap 5 Design
 
 ## View live website: https://ionut-cora.github.io/react-university-website/
 
@@ -17,7 +17,7 @@
 - npm start
 - [http://localhost:3000](http://localhost:3000) - open in your browser to see the project
 
-## The University of London template website is a multi page custom demo website created with [React JS](https://react.dev/) and designed with [React Bootstrap](https://react-bootstrap.netlify.app/).
+## The University of Arts & Technology template website is a multi page custom demo website created with [React JS](https://react.dev/) and designed with [React Bootstrap](https://react-bootstrap.netlify.app/).
 The website contain 5 pages: Home, About, Courses, Blog and Contact. Also contains few components like accordion component for example.
 
 # Getting Started with Create React App
