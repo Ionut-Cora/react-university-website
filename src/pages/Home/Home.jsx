@@ -35,9 +35,8 @@ function Home() {
     <div className='home-page'>
         <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
             <div className='container d-flex flex-column align-items-center'>
-                <h2>Welcome to</h2>
-                <h1 className='text-center fw-semibold'>University of London</h1>
-                <p className='text-center'>Apply with our University of London for courses in Computer Science, Art, Business Administration & Business Management, Education, Healthcare, Law, Music or Sport!</p>
+                <h1 className='text-center fw-semibold'>University of <br /> Arts & Technology</h1>
+                <p className='text-center'>Apply with our University of Arts & Technology for courses in Computer Science, Art, Business Administration & Business Management, Education, Healthcare, Law, Music or Sport!</p>
                 <div className='d-flex flex-column flex-sm-row align-items-center mt-md-3'>
                     <Link to="/courses">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Courses</button>

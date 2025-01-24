@@ -23,7 +23,7 @@ function App() {
               <span className='mx-2 text-light lh-1 fw-semibold'>
                 University of
                 <br></br>
-                London
+                Arts & Tech
               </span>
             </Link>
           </Navbar.Brand>

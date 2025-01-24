@@ -8,7 +8,7 @@ function ChooseSection() {
   return (
     <div className='choose-section'>
         <div className="container">
-            <h2 className='text-center mb-5'>Why choose University of London?</h2>
+            <h2 className='text-center mb-5'>Why choose University of Arts & Technology?</h2>
             <div className='row g-4'>
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center border-0 h-100'>
