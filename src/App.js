@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import { Link, Routes, Route } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,6 +14,13 @@ import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
 
 function App() {
+  const [newDate, setNewDate] = useState('');
+  useEffect(() => {
+    let todayDate = new Date();
+    let todayYear = todayDate.getFullYear();
+    setNewDate([todayYear])
+  }, []);
+ 
   return (
     <div>
       <Navbar expand="lg" className='position-absolute w-100'>
@@ -117,7 +125,7 @@ function App() {
         </div>
         <div className='bg-body-tertiary'>
           <div className='container'>
-            <p className='p-3 m-0 text-center'>copyright @ made by <Link to='https://www.ionutcora.com/' style={{textDecoration: 'none', color: '#000000'}} target="_blank">Ionut Cora</Link></p>
+            <p className='p-3 m-0 text-center'>&copy; {newDate} University of Arts & Tech / made by <Link to='https://www.ionutcora.com/' style={{textDecoration: 'none', color: '#000000'}} target="_blank">Ionut Cora</Link></p>
           </div>
         </div>
       </footer>
